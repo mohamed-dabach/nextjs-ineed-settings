@@ -1,8 +1,8 @@
 import Link from "next/link";
-import SectionHeading from "../../componets/settings/sectionHeading";
-import SectionItemDesc from "../../componets/settings/sectionItemDesc";
-import SectionItemHeading from "../../componets/settings/sectionItemHeading";
-import OldBlueLink from "../../componets/oldBlueLink";
+import SectionHeading from "../../../components/settings/sectionHeading";
+import SectionItemDesc from "../../../components/settings/sectionItemDesc";
+import SectionItemHeading from "../../../components/settings/sectionItemHeading";
+import OldBlueLink from "../../../components/oldBlueLink";
 
 export default function Privacy() {
   return (

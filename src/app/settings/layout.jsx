@@ -1,6 +1,6 @@
 "use client";
 import { usePathname } from "next/navigation";
-import SideBar from "../componets/settings/sidebar";
+import SideBar from "../../components/settings/sidebar";
 import { useState } from "react";
 import { IoIosArrowBack } from "react-icons/io";
 export default function SettingsLayout({ children }) {
@@ -20,7 +20,7 @@ export default function SettingsLayout({ children }) {
         }`}
       >
         <SideBar currentPath={currentPath} handleSetActive={handleSetActive} />
-      </div> 
+      </div>
 
       <main
         className={`md:py-24 pt-10 px-5 md:px-10 lg:px-20 ${

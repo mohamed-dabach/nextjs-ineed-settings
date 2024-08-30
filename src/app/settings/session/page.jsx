@@ -1,6 +1,6 @@
-import LinkWhiteBg from "../../componets/settings/LinkWhiteBg";
-import SectionHeading from "../../componets/settings/sectionHeading";
-import SectionItemDesc from "../../componets/settings/sectionItemDesc";
+import LinkWhiteBg from "../../../components/settings/LinkWhiteBg";
+import SectionHeading from "../../../components/settings/sectionHeading";
+import SectionItemDesc from "../../../components/settings/sectionItemDesc";
 
 export default function Session() {
   return (

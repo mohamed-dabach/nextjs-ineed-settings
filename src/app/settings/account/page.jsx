@@ -1,8 +1,8 @@
-import SectionHeading from "../../componets/settings/sectionHeading";
-import SectionItem from "../../componets/settings/sectionItem";
-import SectionItemHeading from "../../componets/settings/sectionItemHeading";
-import SectionItemDesc from "../../componets/settings/sectionItemDesc";
-import LinkWhiteBg from "../../componets/settings/LinkWhiteBg";
+import SectionHeading from "../../../components/settings/sectionHeading";
+import SectionItem from "../../../components/settings/sectionItem";
+import SectionItemHeading from "../../../components/settings/sectionItemHeading";
+import SectionItemDesc from "../../../components/settings/sectionItemDesc";
+import LinkWhiteBg from "../../../components/settings/LinkWhiteBg";
 
 export default function Account() {
   return (

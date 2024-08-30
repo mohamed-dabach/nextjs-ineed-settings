@@ -1,10 +1,10 @@
 import { IoIosArrowForward, IoMdInformationCircle } from "react-icons/io";
-import Checkbox from "../../componets/settings/checkBox";
-import SectionHeading from "../../componets/settings/sectionHeading";
-import SectionItem from "../../componets/settings/sectionItem";
-import SectionItemDesc from "../../componets/settings/sectionItemDesc";
-import SectionItemHeading from "../../componets/settings/sectionItemHeading";
-import LinkWhiteBg from "../../componets/settings/LinkWhiteBg";
+import Checkbox from "../../../components/settings/checkBox";
+import SectionHeading from "../../../components/settings/sectionHeading";
+import SectionItem from "../../../components/settings/sectionItem";
+import SectionItemDesc from "../../../components/settings/sectionItemDesc";
+import SectionItemHeading from "../../../components/settings/sectionItemHeading";
+import LinkWhiteBg from "../../../components/settings/LinkWhiteBg";
 import Link from "next/link";
 
 export default function Notification() {
