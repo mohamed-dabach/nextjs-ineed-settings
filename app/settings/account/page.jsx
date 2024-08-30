@@ -1,4 +1,3 @@
-import SettingsLayout from "../settingsLayout";
 import SectionHeading from "../../componets/settings/sectionHeading";
 import SectionItem from "../../componets/settings/sectionItem";
 import SectionItemHeading from "../../componets/settings/sectionItemHeading";
@@ -7,7 +6,7 @@ import LinkWhiteBg from "../../componets/settings/LinkWhiteBg";
 
 export default function Account() {
   return (
-    <SettingsLayout>
+    <>
       <SectionHeading>Account Settings</SectionHeading>
       <SectionItem>
         <div>
@@ -55,6 +54,6 @@ export default function Account() {
           Close my account
         </p>
       </div>
-    </SettingsLayout>
+    </>
   );
 }

@@ -4,13 +4,12 @@ import SectionHeading from "../../componets/settings/sectionHeading";
 import SectionItem from "../../componets/settings/sectionItem";
 import SectionItemDesc from "../../componets/settings/sectionItemDesc";
 import SectionItemHeading from "../../componets/settings/sectionItemHeading";
-import SettingsLayout from "../settingsLayout";
 import LinkWhiteBg from "../../componets/settings/LinkWhiteBg";
 import Link from "next/link";
 
 export default function Notification() {
   return (
-    <SettingsLayout>
+    <>
       <div className="mt-10">
         <SectionHeading>Subscriptions</SectionHeading>
         <SectionItem>
@@ -104,7 +103,10 @@ export default function Notification() {
 
       <div className="border-[1.5px] p-5 mt-8 rounded-lg">
         <h5>Want to get fewer emails from us?</h5>
-        <Link href={"#"} className="text-blue-800 text-sm font-bold w-fit my-2 block">
+        <Link
+          href={"#"}
+          className="text-blue-800 text-sm font-bold w-fit my-2 block"
+        >
           Unsubscribe from comercial emails
         </Link>
         <p className="text-[12px] text-gray-500 ">
@@ -115,6 +117,6 @@ export default function Notification() {
           <strong>Job and company alerts</strong> page.
         </p>
       </div>
-    </SettingsLayout>
+    </>
   );
 }

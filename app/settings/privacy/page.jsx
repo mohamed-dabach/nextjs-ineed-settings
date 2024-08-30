@@ -2,12 +2,11 @@ import Link from "next/link";
 import SectionHeading from "../../componets/settings/sectionHeading";
 import SectionItemDesc from "../../componets/settings/sectionItemDesc";
 import SectionItemHeading from "../../componets/settings/sectionItemHeading";
-import SettingsLayout from "../settingsLayout";
 import OldBlueLink from "../../componets/oldBlueLink";
 
 export default function Privacy() {
   return (
-    <SettingsLayout>
+    <>
       <SectionHeading>Privacy settings</SectionHeading>
       <section className="mt-6">
         <SectionItemHeading>Types of data collected</SectionItemHeading>
@@ -75,6 +74,6 @@ export default function Privacy() {
           again the next time you apply to a job through Indeed.
         </SectionItemDesc>
       </section>
-    </SettingsLayout>
+    </>
   );
 }

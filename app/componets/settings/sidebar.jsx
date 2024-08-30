@@ -3,14 +3,19 @@ import SideBarItemLink from "./sideBarItemLink";
 import { MdEmail, MdOutlineDesktopWindows } from "react-icons/md";
 import { IoMdLock } from "react-icons/io";
 
-export default function SideBar({ currentPath }) {
+export default function SideBar({ currentPath, handleSetActive }) {
   return (
     <>
       <aside className="min-h-[calc(100vh-60px)]">
         <h1 className="font-bold text-4xl py-4 pl-4">Settings</h1>
         <ul className=" font-medium mt-5">
-          <SideBarItemLink to={"/settings/account"} currentPath={currentPath}>
+          <SideBarItemLink
+            to={"/settings/account"}
+            currentPath={currentPath}
+            onClick={() => handleSetActive(false)}
+          >
             <FaUser className="w-5 h-5" />
+
             <div>
               <h3 className="font-semibold text-xl">Account Settings</h3>
               <p className="font-normal text-[13px]">
@@ -21,6 +26,7 @@ export default function SideBar({ currentPath }) {
           <SideBarItemLink
             to={"/settings/notification"}
             currentPath={currentPath}
+            onClick={() => handleSetActive(false)}
           >
             <MdEmail className="w-5 h-5" />
             <div>
@@ -30,7 +36,11 @@ export default function SideBar({ currentPath }) {
               </p>
             </div>
           </SideBarItemLink>
-          <SideBarItemLink to={"/settings/session"} currentPath={currentPath}>
+          <SideBarItemLink
+            to={"/settings/session"}
+            currentPath={currentPath}
+            onClick={() => handleSetActive(false)}
+          >
             <MdOutlineDesktopWindows className="w-5 h-5" />
             <div>
               <h3 className="font-semibold text-xl">Device Managment</h3>
@@ -39,7 +49,11 @@ export default function SideBar({ currentPath }) {
               </p>
             </div>
           </SideBarItemLink>
-          <SideBarItemLink to={"/settings/privacy"} currentPath={currentPath}>
+          <SideBarItemLink
+            to={"/settings/privacy"}
+            currentPath={currentPath}
+            onClick={() => handleSetActive(false)}
+          >
             <IoMdLock className="w-5 h-5" />
 
             <div>

@@ -1,11 +1,10 @@
 import LinkWhiteBg from "../../componets/settings/LinkWhiteBg";
 import SectionHeading from "../../componets/settings/sectionHeading";
 import SectionItemDesc from "../../componets/settings/sectionItemDesc";
-import SettingsLayout from "../settingsLayout";
 
 export default function Session() {
   return (
-    <SettingsLayout>
+    <>
       <SectionHeading>Device management</SectionHeading>
       <div className="mt-6">
         <SectionItemDesc>
@@ -110,6 +109,6 @@ export default function Session() {
           </tbody>
         </table>
       </div>
-    </SettingsLayout>
+    </>
   );
 }
